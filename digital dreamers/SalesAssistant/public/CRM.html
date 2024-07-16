@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <a class="logo" href="home.html">Sales Manager</a>
+        <div class="header-right">
+          <a class="active" href="home.html">Home</a>
+          <a href="CRM.html">Add Customer</a>
+          <a href="ATM.html">Shedule Meeting</a>
+          <a href="chatbots.html">AI Chatbot</a>
+        </div>
+      </div>
+    
+    <div class="container">
+        <div class="text">
+            <h1>Customer Relationship Management</h1>
+            <h2>Enter customer details</h2>
+            <form id="data-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" required>
+                
+                <button type="submit" class="button-1" width="50">Add Customer</button>
+            </form>
+        </div>
+        <div class-"image">
+            <img src="images/CustomerRelation.jpg" alt="Customer Relationship">
+        </div>
+    </div>
+    
+    
+
+    <h2>Data Table</h2>
+    <table id="data-table" width="700" >
+        <thead>
+            <tr>
+                <th bgcolor="lightgray" width="200" height="40">Name</th>
+                <th bgcolor="lightgray" width="300">Email</th>
+                <th bgcolor="lightgray" width="200">Phone</th>
+            </tr>
+        </thead>
+        <tbody bgcolor="white" align="center">
+            <!-- Data rows will be added here -->
+        </tbody>
+    </table>
+
+    <script src="js/crm.js"></script>
+</body>
+</html>
