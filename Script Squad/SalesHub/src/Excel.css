@@ -1,0 +1,95 @@
+  .excel {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .collection-dropdown {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .excel-grid {
+    overflow-x: auto;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #2c2c2c;
+  }
+  
+  td:hover {
+    background-color: #2c2c2c;
+    cursor: pointer;
+  }
+  
+  input {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: none;
+    padding: 4px;
+    width: 100%;
+  }
+  
+  .add-row-btn, .add-column-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+  }
+  
+  .error-message {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .context-menu {
+    position: fixed;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .context-menu button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .context-menu button:hover {
+    background-color: #3c3c3c;
+  }

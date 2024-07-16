@@ -1,0 +1,48 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  text-decoration: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-dark) var(--color-primary);
+}
+
+:root {
+  /* Font sizes */
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 24px;
+  --font-size-xxlarge: 32px;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Colors */
+  /* --color-primary: #0A0B0B; */
+  --color-dark: #1A1A1A;
+  --color-btn-bg: #101011;
+  --color-secondary: #007bff;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #D4FB50;
+  --color-info: #17a2b8;
+  --color-light: #E7E6E6;
+  /* --color-dark: #010100; */
+  --color-primary: #0E0F0E;
+  --color-text: #4D4D4C;
+
+  /* Spacing */
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+  --spacing-xlarge: 3rem;
+}
+
